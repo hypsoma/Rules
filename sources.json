@@ -1,0 +1,135 @@
+[
+  {
+    "line_number": 110,
+    "section": "filter_remote",
+    "category": "filter",
+    "url": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/refs/heads/master/QuantumultX/rules/FanQieNovel.list",
+    "path": "filter/FanQieNovel.list"
+  },
+  {
+    "line_number": 111,
+    "section": "filter_remote",
+    "category": "filter",
+    "url": "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockqx.conf",
+    "path": "filter/adblockqx.conf"
+  },
+  {
+    "line_number": 112,
+    "section": "filter_remote",
+    "category": "filter",
+    "url": "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Tencent/Tencent_ASN.list",
+    "path": "filter/Tencent_ASN.list"
+  },
+  {
+    "line_number": 113,
+    "section": "filter_remote",
+    "category": "filter",
+    "url": "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Tencent/Tencent_IP.list",
+    "path": "filter/Tencent_IP.list"
+  },
+  {
+    "line_number": 114,
+    "section": "filter_remote",
+    "category": "filter",
+    "url": "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CN/CN_ASN.list",
+    "path": "filter/CN_ASN.list"
+  },
+  {
+    "line_number": 115,
+    "section": "filter_remote",
+    "category": "filter",
+    "url": "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/country/CN/CN_IP.list",
+    "path": "filter/CN_IP.list"
+  },
+  {
+    "line_number": 116,
+    "section": "filter_remote",
+    "category": "filter",
+    "url": "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Google/Google_ASN.list",
+    "path": "filter/Google_ASN.list"
+  },
+  {
+    "line_number": 117,
+    "section": "filter_remote",
+    "category": "filter",
+    "url": "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Google/Google_IP.list",
+    "path": "filter/Google_IP.list"
+  },
+  {
+    "line_number": 118,
+    "section": "filter_remote",
+    "category": "filter",
+    "url": "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Twitter/Twitter_ASN.list",
+    "path": "filter/Twitter_ASN.list"
+  },
+  {
+    "line_number": 119,
+    "section": "filter_remote",
+    "category": "filter",
+    "url": "https://raw.githubusercontent.com/Kwisma/ASN-List/refs/heads/main/data/Twitter/Twitter_IP.list",
+    "path": "filter/Twitter_IP.list"
+  },
+  {
+    "line_number": 120,
+    "section": "filter_remote",
+    "category": "filter",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/QuantumultX/Gemini/Gemini.list",
+    "path": "filter/Gemini.list"
+  },
+  {
+    "line_number": 121,
+    "section": "filter_remote",
+    "category": "filter",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list",
+    "path": "filter/OpenAI.list"
+  },
+  {
+    "line_number": 134,
+    "section": "rewrite_remote",
+    "category": "rewrite",
+    "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/UnlockVip/Spotify.conf",
+    "path": "rewrite/Spotify.conf"
+  },
+  {
+    "line_number": 135,
+    "section": "rewrite_remote",
+    "category": "rewrite",
+    "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/ChinaUnicomAds.conf",
+    "path": "rewrite/ChinaUnicomAds.conf"
+  },
+  {
+    "line_number": 136,
+    "section": "rewrite_remote",
+    "category": "rewrite",
+    "url": "https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Didichuxing.snippet",
+    "path": "rewrite/Didichuxing.snippet"
+  },
+  {
+    "line_number": 137,
+    "section": "rewrite_remote",
+    "category": "rewrite",
+    "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/AmapAds.conf",
+    "path": "rewrite/AmapAds.conf"
+  },
+  {
+    "line_number": 138,
+    "section": "rewrite_remote",
+    "category": "rewrite",
+    "url": "https://raw.githubusercontent.com/ddgksf2013/Rewrite/refs/heads/master/AdBlock/TieBaAds.conf",
+    "path": "rewrite/TieBaAds.conf"
+  },
+  {
+    "line_number": 139,
+    "section": "rewrite_remote",
+    "category": "rewrite",
+    "url": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/refs/heads/master/QuantumultX/rewrite/FanQieNovel.qxrewrite",
+    "path": "rewrite/FanQieNovel.qxrewrite"
+  },
+  {
+    "line_number": 147,
+    "section": "rewrite_remote",
+    "category": "rewrite",
+    "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.snippet",
+    "path": "rewrite/zheye.snippet"
+  }
+]
