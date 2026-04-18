@@ -15,5 +15,6 @@ This repository mirrors raw Quantumult X resources referenced by
 python3 scripts/sync_quantumult_resources.py
 ```
 
-The sync is atomic for managed resource directories. If any source download fails,
-the repository content is left unchanged.
+Each source is synced independently. Successful sources are updated, failed
+sources are left untouched, and the GitHub Actions commit message records both
+the updated files and failed sources.

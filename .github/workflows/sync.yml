@@ -30,8 +30,45 @@ jobs:
             echo "No updates detected."
             exit 0
           fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          report = json.loads(Path(".sync-report.json").read_text(encoding="utf-8"))
+          message = ["chore: sync quantumult resources", ""]
+
+          updated = report.get("updated_files", [])
+          removed = report.get("removed_files", [])
+          failed = report.get("failed_files", [])
+
+          if updated:
+              message.append("Updated files:")
+              message.extend(f"- {path}" for path in updated)
+              message.append("")
+
+          if removed:
+              message.append("Removed files:")
+              message.extend(f"- {path}" for path in removed)
+              message.append("")
+
+          if failed:
+              message.append("Failed sources:")
+              message.extend(
+                  f"- {item['path']} <- {item['url']} ({item['error']})"
+                  for item in failed
+              )
+              message.append("")
+
+          Path(".git/COMMIT_EDITMSG.sync").write_text(
+              "\n".join(message).rstrip() + "\n",
+              encoding="utf-8",
+          )
+          PY
+
           git add filter rewrite sources.json
-          git commit -m "chore: sync quantumult resources"
+          git commit -F .git/COMMIT_EDITMSG.sync
           git push
